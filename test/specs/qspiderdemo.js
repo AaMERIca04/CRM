@@ -1,0 +1,15 @@
+// describe('qspiderdemo', async() => { 
+//     it('testing',async()=>{
+//         await browser.url('https://www.globalsqa.com/demo-site/draganddrop/#Photo%20Manager')
+//         await browser.maximizeWindow()
+//         await browser.$('//li[@id="Accepted Elements"]').click()
+//         // await browser.$('//section[contains(text(),"Drag & Drop")]').click() 
+//         // await browser.$('//a[contains(text(),"Drag Position")]').click() 
+//         const Target = await browser.$('(//div[@id="droppable"])[1]') 
+//         Target.click({button:'right'})
+//         Target.waitUntil({timeout:3000})
+//         // await browser.$('(//p[contains(text(),"Drag me to my target")])[1]').dragAndDrop(Target)
+//         // await browser.$('//div[text()="Laptop Charger"]').dragAndDrop(Target)
+//         await browser.pause(5000)
+//     })
+//  })
